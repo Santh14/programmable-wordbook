@@ -1,11 +1,12 @@
 
 body {
     background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 .notebook {
     width: 600px;
@@ -46,9 +47,86 @@ body {
     padding: 30px;
     overflow-y: auto;
 }
+.content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: repeating-linear-gradient(to bottom, #ccc, #ccc 1px, transparent 1px, transparent 25px);
+    pointer-events: none;
+    z-index: 1;
+}
 .page {
     display: none;
 }
 .page.active {
+    position: relative;
+    z-index: 2;
     display: block;
 }
+.notebook-button {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace; /* Notebook-like font */
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.notebook-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: repeating-linear-gradient(
+        to right,
+        #ccc,
+        #ccc 2px,
+        #fff 2px,
+        #fff 4px
+    );
+    z-index: -1;
+}  
+.notebook-button:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+.notebook-button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* page2 start */
+
+#page2 {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+#page2.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#page2.description {
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+#page2.input-box {
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+
+/* page2 end */

@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="main.js"></script>
+    <script src="jsonManager.js"></script>
     <link rel="stylesheet" href="notebook.css">
     <title>Document</title>
 </head>
 <body>
     <div class="notebook">
         <div class="tabs">
-            <div class="tab active" onclick="showPage('page1')">Home</div>
-            <div class="tab" onclick="showPage('page2')">About</div>
-            <div class="tab" onclick="showPage('page3')">Contact</div>
+            <div class="tab active" onclick="showPage('page1')">메인 페이지</div>
+            <div class="tab" onclick="showPage('page2')">단어 시험장</div>
+            <div class="tab" onclick="showPage('page3')">단어 편집장</div>
         </div>
         <div class="content">
             <div id="page1" class="page active">
                 <h1>메인 페이지</h1>
-                <p>이 페이지가 굳이 필요할까 싶다.</p>
+                <p>이 페이지가 굳이 필요할까?</p>
             </div>
             <div id="page2" class="page">
-                <h1>단어 시험장</h1>
-                <p>여기서 문제를 풀고 모르는 단어를 확인해보세요!</p>
+                <div class="title">단어 시험장</div>
+                <div class="question">다음 단어의 뜻은 무엇인가요?</div>
+                <p id="page2_question_word" class="word"></p>
+                <p class="hints"></p>
+                <button class="notebook-button" onclick="page2_showHint()">힌트 보기</button>
+                <input type="text" id ="page2_user_answer" class="input-box" placeholder="답안을 입력하세요.">
+                <button class="notebook-button" onclick="page2_checkAnswer()">정답 확인</button>
+                <p id="page2_correct_answer" class="result"></p>
             </div>
             <div id="page3" class="page">
                 <h1>단어 편집장</h1>
