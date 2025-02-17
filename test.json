@@ -33,5 +33,158 @@
         "meaning": "고양이",
         "hint": "동물",
         "tag" : "animal"
+    },
+
+    "longitude": {
+        "meaning": "경도",
+        "hint": "The long lines of longitude stretch from pole to pole.",
+        "tag" : ""
+    },
+
+    "latitude": {
+        "meaning": "위도",
+        "hint": "Latitude is like a ladder.",
+        "tag" : ""
+    },
+    "beached": {
+        "meaning": "(배 등이) 해변에 좌초된",
+        "example": "The ship was beached after the storm.",
+        "tag": ""
+    },
+    "remotely": {
+        "meaning": "멀리 떨어져서, 원격으로",
+        "example": "She works remotely from her home.",
+        "tag": ""
+    },
+    "correlate": {
+        "meaning": "상관관계가 있다, 서로 관련시키다",
+        "example": "Scientists often correlate data from different studies.",
+        "tag": ""
+    },
+    "singularity": {
+        "meaning": "단일성, 특이점",
+        "example": "The concept of a black hole involves a singularity at its center.",
+        "tag": ""
+    },
+    "alpha point": {
+        "meaning": "시작점, 알파 포인트",
+        "example": "The alpha point of the project was its initial planning phase.",
+        "tag": ""
+    },
+    "glare": {
+        "meaning": "눈부신 빛, 환한 빛",
+        "example": "The glare from the sun was blinding.",
+        "tag": ""
+    },
+    "return": {
+        "meaning": "돌아오다, 돌아가다",
+        "example": "He will return home next week.",
+        "tag": ""
+    },
+    "interim": {
+        "meaning": "중간의, 임시의",
+        "example": "In the interim period, the company will appoint an interim CEO.",
+        "tag": ""
+    },
+    "gulls": {
+        "meaning": "갈매기들",
+        "example": "The gulls were circling above the fishing boat.",
+        "tag": ""
+    },
+    "shun": {
+        "meaning": "피하다, 멀리하다",
+        "example": "He tends to shun large crowds.",
+        "tag": ""
+    },
+    "depletion": {
+        "meaning": "고갈, 소모",
+        "example": "The depletion of natural resources is a major concern.",
+        "tag": ""
+    },
+    "fishing stock": {
+        "meaning": "어족 자원",
+        "example": "The government implemented measures to protect fishing stocks.",
+        "tag": ""
+    },
+
+    "depart": {
+        "meaning": "떠나다",
+        "example": "The train will depart at 10 AM. (기차는 오전 10시에 떠납니다.)",
+        "tag": ""
+    },
+    "herd": {
+        "meaning": "(가축의) 무리, 떼",
+        "example": "A herd of cows grazed in the field. (소 무리가 들판에서 풀을 뜯고 있었다.)",
+        "tag": ""
+    },
+    "sickly": {
+        "meaning": "병약한, 병든",
+        "example": "The sickly child needed constant care. (그 병약한 아이는 지속적인 보살핌이 필요했다.)",
+        "tag": ""
+    },
+    "populate": {
+        "meaning": "~에 거주하다, 채우다",
+        "example": "Many species populate the rainforest. (많은 종들이 열대우림에 거주한다.)",
+        "tag": ""
+    },
+    "shepherds": {
+        "meaning": "목자들, 양치기들",
+        "example": "Shepherds lead their flocks to the pastures. (목자들은 그들의 양 떼를 목초지로 이끈다.)",
+        "tag": ""
+    },
+    "overall": {
+        "meaning": "전반적으로, 전체적으로",
+        "example": "Overall, the project was a success. (전반적으로, 그 프로젝트는 성공적이었다.)",
+        "tag": ""
+    },
+    "stumble": {
+        "meaning": "비틀거리다, 발을 헛디디다",
+        "example": "He stumbled over a rock and fell. (그는 바위에 발을 헛디뎌 넘어졌다.)",
+        "tag": ""
+    },
+    "precipices": {
+        "meaning": "절벽, 벼랑",
+        "example": "The climber stood on the edge of the precipice. (등산객은 절벽 끝에 서 있었다.)",
+        "tag": ""
+    },
+    "plummeting": {
+        "meaning": "급락하는, 급강하하는",
+        "example": "The temperatures are plummeting this winter. (올겨울 기온이 급락하고 있다.)",
+        "tag": ""
+    },
+    "ashore": {
+        "meaning": "해안으로, 물가로",
+        "example": "The shipwrecked sailors swam ashore. (난파된 선원들이 해안으로 헤엄쳐 갔다.)",
+        "tag": ""
+    },
+    "ankles": {
+        "meaning": "발목",
+        "example": "She twisted her ankle while running. (그녀는 달리던 중 발목을 삐었다.)",
+        "tag": ""
+    },
+    "as though": {
+        "meaning": "마치 ~인 것처럼",
+        "example": "He acted as though nothing had happened. (그는 마치 아무 일도 없었던 것처럼 행동했다.)",
+        "tag": ""
+    },
+    "conspired": {
+        "meaning": "음모를 꾸미다, 공모하다",
+        "example": "They conspired to overthrow the government. (그들은 정부를 전복하려 음모를 꾸몄다.)",
+        "tag": ""
+    },
+    "shipwreck": {
+        "meaning": "난파선, 난파 사고",
+        "example": "They found treasure in a shipwreck. (그들은 난파선에서 보물을 발견했다.)",
+        "tag": ""
+    },
+    "listless": {
+        "meaning": "무기력한, 활기 없는",
+        "example": "The patient felt listless after the surgery. (환자는 수술 후 무기력함을 느꼈다.)",
+        "tag": ""
+    },
+    "only then": {
+        "meaning": "그때서야, 그제서야",
+        "example": "Only then did she realize her mistake. (그때서야 그녀는 자신의 실수를 깨달았다.)",
+        "tag": ""
     }
 }

@@ -13,11 +13,3 @@ function showPage(pageId) {
     document.getElementById(pageId).classList.add('active');
     document.querySelector('.tab[onclick="showPage(\'' + pageId + '\')"]').classList.add('active');
 }
-
-function page2_showHint() {
-    // document.getElementById('page2_hint').classList.add('active');    
-}
-
-function page2_checkAnswer() {
-    // 
-}
