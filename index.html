@@ -13,29 +13,44 @@
         <div class="tabs">
             <div class="tab active" onclick="showPage('page1')">메인 페이지</div>
             <div class="tab" onclick="showPage('page2')">단어 시험장</div>
-            <div class="tab" onclick="showPage('page3')">단어 편집장</div>
         </div>
         <div class="content">
+            <!-- Main page with file input element -->
             <div id="page1" class="page active">
                 <h1>메인 페이지</h1>
-                <p>이 페이지가 굳이 필요할까?</p>
+                <p>단어를 확인하고 편집하는 곳입니다.</p>
+                <input type="file" id="fileInput">
+                <!-- Container for displaying word info after file upload -->
+                <div id="wordInfo" style="display:none;">
+                    <h2>단어 정보</h2>
+                    <p id="wordData"></p>
+                </div>
+                <!-- temporary start test button -->
+                <button id="startTest" style="display: none;">start test</button>
             </div>
             <div id="page2" class="page">
                 <div class="title">단어 시험장</div>
-                <input type="file" id="fileInput">
-                <div id="wordTestContainer">
+
+                <!-- Element to display message if file is not uploaded -->
+                <p id="fileNotUploadedMessage">파일이 업로드되지 않았습니다! 메인 페이지에서 파일을 업로드 해주세요.</p>
+                
+
+                <div id="wordTestContainer" style="display:none;">
                     <div class="question">다음 단어의 뜻은 무엇인가요?</div>
                     <p id="questionWord" class="word"></p>
                     <p class="hints"></p>
-                    <input type="text" id ="userAnswer" class="input-box" placeholder="답안을 입력하세요.">
+                    <input type="text" id="userAnswer" class="input-box" placeholder="답안을 입력하세요.">
                     <p id="correctAnswer" class="result"></p>
                 </div>
-            </div>
-            <div id="page3" class="page">
-                <h1>단어 편집장</h1>
-                <p>여기서만큼은 당신도 프로그래머입니다.</p>
+                <div id="wordTestResultContainer" style="display:none;">
+                    <div class="title">시험 결과</div>
+                    <div class="result">당신의 점수는 <span id="score"></span>점 입니다.</div>
+                </div>
+                </div>
             </div>
         </div>
     </div>
 </body>
+
+
 </html>
